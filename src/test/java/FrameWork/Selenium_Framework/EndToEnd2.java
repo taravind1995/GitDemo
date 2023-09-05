@@ -38,15 +38,16 @@ public class EndToEnd2 {
 	     
 	
 			
-			  WebElement prod=products.stream().filter(product->
-			  product.findElement(By.cssSelector("b")).getText().equals("ADIDAS ORIGINAL")).
-			  findFirst().orElse(null);
-			 
+		/*
+		 * WebElement prod=products.stream().filter(product->
+		 * product.findElement(By.cssSelector("b")).getText().equals("ADIDAS ORIGINAL"))
+		 * . findFirst().orElse(null);
+		 */
 	
 
 	
 	 // wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".card-body button:last-of-type")));
-	  prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
+	  //prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
 	 
 	/*
 	 * for(int i=0;i<products.size();i++) { String
