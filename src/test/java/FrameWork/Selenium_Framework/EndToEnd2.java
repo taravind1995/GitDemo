@@ -37,29 +37,7 @@ public class EndToEnd2 {
 	     
 	
 			
-		/*
-		 * WebElement prod=products.stream().filter(product->
-		 * product.findElement(By.cssSelector("b")).getText().equals("ADIDAS ORIGINAL"))
-		 * . findFirst().orElse(null);
-		 */
 	
-
-	
-	 // wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".card-body button:last-of-type")));
-	  //prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
-	 
-	/*
-	 * for(int i=0;i<products.size();i++) { String
-	 * product=products.get(i).getText();
-	 * 
-	 * if(product.contains("ADIDAS ORIGINAL")) {
-	 * driver.findElements(By.xpath("//div[@class='card-body']/button[2]")).get(i).
-	 * click();
-	 * 
-	 * //driver.findElements(By.cssSelector(".card-body button:last-of-type")).get(i
-	 * ).click(); } }
-	 */
-		
 	}
 
 }
